@@ -1,0 +1,124 @@
+---
+title: "Divvy Case Study"
+author: "Elijah Sisson"
+date: "2023-01-11"
+output: html_document
+---
+
+This is my analysis for the GOOGLE Data Analysis Professional Certificate Cyclistic Case Study hosted by COURSERA
+
+Lets load some packages
+
+```{r message=FALSE, warning=FALSE}
+library(DescTools)
+library(readr)
+library(tidyverse)
+library(lubridate)
+```
+
+Now lets load the last 12 months of the Divvy trip data. Link to data source bin [here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Then assign the dataset to their respective months.
+
+```{r}
+January_22 <- tibble(read.csv("202201-divvy-tripdata.csv"))
+February_22 <- tibble(read.csv("202202-divvy-tripdata.csv"))
+March_22 <- tibble(read.csv("202203-divvy-tripdata.csv"))
+April_22 <- tibble(read.csv('202204-divvy-tripdata.csv'))
+May_22 <- tibble(read.csv("202205-divvy-tripdata.csv"))
+June_22 <- tibble(read.csv("202206-divvy-tripdata.csv"))
+July_22 <- tibble(read.csv('202207-divvy-tripdata.csv'))
+August_22 <- tibble(read.csv('202208-divvy-tripdata.csv'))
+September_22 <- tibble(read.csv("202209-divvy-publictripdata.csv"))
+October_22 <- tibble(read.csv('202210-divvy-tripdata.csv'))
+November_22 <- tibble(read.csv('202211-divvy-tripdata.csv'))
+December_22 <- tibble(read.csv('202212-divvy-tripdata.csv'))
+```
+
+Then I binded them into 12 month dataset named 'df',
+
+```{r}
+df <- bind_rows(January_22)
+```
+
+Now I need to find the Ride length so I used difftime to create a new column Ride_Length in Minutes
+```{r}
+df$Ride_Length <- (difftime(df$ended_at, df$started_at, units = 'mins'))
+summary(df$Ride_Length)
+```
+
+Then I created a week day field with wday to find which day the bicycle was rented on.
+
+```{r}
+df$Started_at_weekday <- wday(df$started_at, label = TRUE, abbr = FALSE)
+summary(df$Started_at_weekday)
+```
+
+summary of df dataset
+```{r}
+summary(df)
+```
+
+Now that I finished wrangling the df dataset. I am now able to start analyzing.
+
+## ANALYZE
+
+mean of the Ride Length
+
+```{r}
+Mean(df$Ride_Length)
+```
+
+The Max Ride Length
+
+```{r}
+max(df$Ride_Length)
+```
+
+The mode or most frequent week day the bicycles are utilized are
+```{r}
+Mode(df$Started_at_weekday)
+```
+
+Finding the average ride length for members and casual riders.
+
+I created a pivot table of ride length and member_casual field, filtering by Members and Casual riders respectively
+
+Average ride length for members
+```{r}
+df_memebrs_Ride_Length <- df %>%
+  select(Ride_Length, member_casual) %>%
+  filter(member_casual == 'member')
+
+mean(df_memebrs_Ride_Length$Ride_Length)
+```
+
+Average ride length for Casual riders
+```{r}
+df_casual_Ride_Length <- df %>%
+  select(Ride_Length, member_casual, Started_at_weekday) %>%
+  filter(member_casual == 'casual')
+
+mean(df_casual_Ride_Length$Ride_Length)
+```
+Average ride length for each week day
+
+```{r}
+Average_Ride_Length_Weekday <- df %>%
+  select(Ride_Length, Started_at_weekday) %>%
+  group_by(Started_at_weekday)%>%
+  summarise(Average_Ride_Length = mean(Ride_Length)) %>%
+  arrange(desc(Average_Ride_Length))
+
+
+Average_Ride_Length_Weekday
+```
+Number of riders per weekday
+```{r}
+Num_Riders_weekday <- df %>%
+  select(ride_id, Started_at_weekday) %>%
+  group_by(Started_at_weekday)%>%
+  summarise(ride_num = length(ride_id)) %>%
+  arrange(desc(ride_num))
+
+Num_Riders_weekday
+```
