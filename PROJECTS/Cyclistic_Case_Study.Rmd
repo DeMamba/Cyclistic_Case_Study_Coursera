@@ -1,11 +1,21 @@
 ---
 title: "Divvy Case Study"
 author: "Elijah Sisson"
-date: "2023-01-11"
-output: html_document
+date: "2023-01-18"
+output: 
+  html_document:
+    toc : true
+    toc_float: true
+    theme: united
+    code_folding: hide 
 ---
+```{r, setup, include=FALSE}
+knitr::opts_knit$set(root.dir = 'C:/Users/DADDY/Documents/GitHub/Cyclistic_Case_Study_Coursera')
+```
 
 This is my analysis for the GOOGLE Data Analysis Professional Certificate Cyclistic Case Study hosted by COURSERA
+
+## PREPARE
 
 Lets load some packages
 
