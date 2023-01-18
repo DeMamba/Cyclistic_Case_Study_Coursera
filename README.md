@@ -1,4 +1,4 @@
-# Cyclistic Case Study
+# PROJECT 1
 
 # [Google Data Analytics Capstone: Cyclistic Case Study](https://demamba.github.io/Cyclistic_Case_Study_Coursera/)
  
