@@ -1,6 +1,6 @@
 # PROJECT 1
 
-# [Google Data Analytics Capstone: Cyclistic Case Study](https://elijahsisson.github.io/Elijah.S_Data_Analyst_Portfolio/)
+# [Google Data Analytics Capstone: Cyclistic Case Study](https://elijahsisson.github.io/Elijah.S_Data_Analyst_Portfolio/main/PROJECTS/Cyclistic_Case_Study.html)
  
  This is my Google Data Analytics Capstone: Case Study for the Google Data Analytics Professional Certificate.  
 
