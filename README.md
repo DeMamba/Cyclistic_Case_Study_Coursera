@@ -1,6 +1,6 @@
 # PROJECT 1
 
-# [Google Data Analytics Capstone: Cyclistic Case Study](https://rpubs.com/ElijahS/993018) _RMARKDOWN_
+# [Google Data Analytics Capstone: Cyclistic Case Study](https://rpubs.com/ElijahS/993018)
  
  _This is my Google Data Analytics Capstone: Case Study for the Google Data Analytics Professional Certificate._  
  
