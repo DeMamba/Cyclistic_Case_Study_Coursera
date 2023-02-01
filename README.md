@@ -6,8 +6,8 @@
  
  __This project is the culmination of the Google data analytics course materials. By utilizing my knowledge of SQL, EXCEL, RSTUDIO, RMARKDOWN, TABLEAU, & TABLEAU PUBLIC in a real world scenario to evaluate the performance between a BIKE-SHARE companies’ MEMBER and NON-MEMBER users and develop actionable steps to take from my findings.__
 
-I chose to do my case study on Cyclistic bike-share.
-I thoroughly followed the data analysis process of : __ask__, __prepare__, __process__, __analyze__, __share__, __act__.
+I chose to do my case study on Cyclistic bike-share.  
+I thoroughly followed the data analysis process of : __ask__, __prepare__, __process__, __analyze__, __share__, __act__.  
 Developed actionable reccomendations based on findings.
 
 * Retrieved this data from divvy-tripdata https://divvy-tripdata.s3.amazonaws.com/index.html.  
