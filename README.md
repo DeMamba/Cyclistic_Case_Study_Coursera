@@ -9,4 +9,4 @@ I thouroughly followed the data analysis process of : __ask__, __prepare__, __pr
 
 *Retrieved this data from divvy-tripdata https://divvy-tripdata.s3.amazonaws.com/index.html.  
 *Data wrangled using Rstudio.  
-*Visualized using Tableau and published on Tableau Public.  
+*Visualized using Tableau and published on Tableau Public. https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD  
