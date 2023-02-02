@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # PROJECT 1
 
 # [Google Data Analytics Capstone: Cyclistic Case Study](https://rpubs.com/ElijahS/993018)
