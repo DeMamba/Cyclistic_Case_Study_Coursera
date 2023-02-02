@@ -10,8 +10,8 @@ I chose to do my case study on Cyclistic bike-share.
 I thoroughly followed the data analysis process of : __ask__, __prepare__, __process__, __analyze__, __share__, __act__.  
 Developed actionable reccomendations based on findings.
 
-* Retrieved this data from divvy-tripdata https://divvy-tripdata.s3.amazonaws.com/index.html.  
+* Retrieved this data from divvy-tripdata (https://divvy-tripdata.s3.amazonaws.com/index.html).  
 * Data wrangled using Rstudio.  
-* Visualized using Tableau and published on Tableau Public. https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD  
+* Visualized using Tableau and published on Tableau Public. (https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD)  
 
 theme: minimal
