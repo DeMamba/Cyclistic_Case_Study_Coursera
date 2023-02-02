@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minima
 ---
 # PROJECT 1
 
