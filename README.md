@@ -14,4 +14,4 @@ Developed actionable reccomendations based on findings.
 * Data wrangled using Rstudio.  
 * Visualized using Tableau and published on Tableau Public. (https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD)  
 
-theme: minimal
+theme: slate
