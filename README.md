@@ -12,7 +12,7 @@ Developed actionable reccomendations based on findings.
 
 * Retrieved this data from divvy-tripdata (https://divvy-tripdata.s3.amazonaws.com/index.html).  
 * Data wrangled using Rstudio.  
-* Visualized using Tableau and published on Tableau Public. (https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD)  
+* Visualized using Tableau and published on Tableau Public. [HERE](https://public.tableau.com/app/profile/elijah.sisson/viz/Google_Case_Study/OVERVIEWDASHBOARD)  
 
 theme: slate
 
@@ -29,6 +29,6 @@ Outside of utilizing the knowledge gained from my struggles from this project an
 
 I am glad I was able to provide my knowledge of data visualization and analytics in any way to help aid or raise awareness to help people in need even though they are halfway across the planet.
 
-* Viz For Social Good Video Volunteers Project Page (https://www.vizforsocialgood.com/join-a-project/2023/2/4/video-volunteers-india)
-* Video Volunteers Website.(https://www.videovolunteers.org/) 
-* Visualized using Tableau and published on Tableau Public. (https://public.tableau.com/app/profile/elijah.sisson/viz/EmpoweringCommunityVoicesThroughVideographyV4SGVV/OverviewDashboard)
+* Viz For Social Good Video Volunteers Project Page [HERE](https://www.vizforsocialgood.com/join-a-project/2023/2/4/video-volunteers-india)
+* Video Volunteers Website. [HERE](https://www.videovolunteers.org/) 
+* Visualized using Tableau and published on Tableau Public. [HERE](https://public.tableau.com/app/profile/elijah.sisson/viz/EmpoweringCommunityVoicesThroughVideographyV4SGVV/OverviewDashboard)
