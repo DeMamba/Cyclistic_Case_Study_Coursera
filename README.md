@@ -23,7 +23,7 @@ theme: slate
 
 *This is my project for the months of Feb&March for Viz for Social Good for the organization Video Volunteers*
 
-** This project I utilized my knowledge of data wrangling, cleaning, and visualizing from the Google Data Analytics Program to create a interactive dashboard to inform community members, shareholders, and government officials in the district of Jharkhand, India to aid in the alleviating disproportionate treatment of marginalized communities. And created Recommendations based on my findings.**
+**This project I utilized my knowledge of data wrangling, cleaning, and visualizing from the Google Data Analytics Program to create a interactive dashboard to inform community members, shareholders, and government officials in the district of Jharkhand, India to aid in the alleviating disproportionate treatment of marginalized communities. And created Recommendations based on my findings.**
 
 Outside of utilizing the knowledge gained from my struggles from this project and improving my concept of the data analytics process. I was humbled through Video Volunteers bringing the hardship and harsh treatment many individuals go through in this world. Even though I only saw a glimpse of their lives through the data provided by the organization, analyzing this data showed me the discrimination millions of individuals face under the Indian Caste system. I also saw that there are organizations and benevolent individuals who aid in these individuals' wellbeing’s and produced video documenting their strife in order to their government to improve the material conditions of the ones victim to egregious social systems. 
 
